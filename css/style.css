@@ -1,0 +1,227 @@
+body{
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../images/forest.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:#ff7200 ;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    width: 290px;
+    float: left;
+    margin-left: 170px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 130px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    border-right:none ;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    font-size:15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    /* border-top-right-radius: 5px; */
+    border-bottom-right-radius: 5px;
+  transition: 0.2s ease;
+
+}
+.btn:hover{
+    color: #000;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+.content .bn1{
+    width: 140px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.content .bn1 .a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+    
+}
+.bn1 a{
+    text-decoration: none;
+    color: #000;
+}
+.bn1:hover{
+   background-color: white;
+}
+.content span{
+    color: #ff7200;
+    font-size: 50px;
+}
+.form{
+    width: 230px;
+    height: 280px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top:95px;
+    left: 650px;
+    border-radius: 20px;
+    padding: 35px;
+    transform: translate(0%,-5%);
+}
+.form h2{
+    width: 150px;
+    
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: sans-serif;
+
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.bn2{
+    width: 200px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.bn2 a{
+    text-decoration: none;
+    color:black;
+}
+.bn2:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btn a{
+    text-decoration:none;
+    color: #000;
+    font-weight: bold;
+}
+.link a{
+text-decoration: none;
+color: #000;
+}
+.link a:hover{
+    color: aliceblue;
+}
